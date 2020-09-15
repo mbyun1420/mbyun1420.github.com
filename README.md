@@ -1,2 +1,2 @@
-# mbyun1420.github.com
+# mbyun1420.github.io
 Gitblog
