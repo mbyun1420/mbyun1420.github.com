@@ -57,8 +57,9 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     + Output
         > quotes 
     + Syntax  
-        \> quotes
-
+        \> quotes  
+          
+          
 + Font style 글자 서식  
   
   
@@ -206,7 +207,7 @@ Syntax              | Output
     [link1]: http://www.google.com/ "hover:구글"
     <mbyun1420@gmail.com/>
     + Syntax  
-    
+
     \[google](http://www.google.co.kr "hover:구글")
     \[google]\[link1]
 
