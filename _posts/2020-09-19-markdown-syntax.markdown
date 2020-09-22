@@ -3,41 +3,49 @@ layout: post
 title:  "Markdown syntax"
 author: youn
 categories: [ Markdown ]
-image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 ---
 
-Markdown syntax; this blog default layout makes first letter has over 3ea to highlight it and this blog is a `gitblog` on `jekyll` structure. 
+This blog has a default layout which includes the stlye of first letter having 3ea. Also it is a `gitblog` type blog on `jekyll` structure. `Mundana` is being used as one of the `jekyll` theme. 
 
 
 ## Post layout | 포스트 레이아웃
+
 Declare layout information on forehead of `_posts` markdown 
 ( _posts 게시물 머리말에 layout 관련 정보를 선언)
+
 + layout: post | follow post.html layout
 + title: "Markdown syntax" | title of this article
 + author: youn | author identification
 + categories: Markdown | categories this article to Markdown 
 + image: url | specifies the image to shown in `home`
 
+
 ```
+
 ---
 layout: post
 title:  "Markdown syntax"
 author: youn
 categories: [ Markdown ]
-image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 ---
+
 ```
 
 ## Contents format | 본문 서식
 + Header | 제목
     + Output
-        # h1 
-        ## h2
-        ### h3
-        #### h4
-        ##### h5
-        ###### h6
-    + Syntax
+
+# h1 
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+
++ Syntax
+
     ``` 
     # h1 
     ## h2 
@@ -46,43 +54,39 @@ image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2
     ##### h5
     ###### h6
      ``` 
+
 + Blockquotes | 인용
     + Output
-    > quotes 
+        > quotes 
     + Syntax
-    \> quotes
+        \> quotes
 
-+ | 이텔릭체
-    + Output
-    *이텔릭체* , _이텔릭체_
-    + Syntax
-+ | 두껍게 
-    + Output 
-    **두껍게**, __두껍게__
-    + Syntax
-    \**두껍게 \*\*, \__두껍게\_\_
-+ | 취소선
-    + Output
-    ~~취소선~~
-    + Syntax
-    \~~취소선\~\~
-+ | 밑줄 
-    + Output
-    <u>밑줄</u>
-    + Syntax
-    \<u>밑줄\</u>
++ Font style | 글자 서식
+
+Syntax    | Output
+--------- | ---------
+\*italic\* | *italic*
+\_italic\_ | _italic_
+\**bold\*\* | **bold**
+\__bold\_\_ | __bold__
+\~~strikethrough\~\~ | ~~strikethrough~~
+\<u>Underline\</u> | <u>Underline</u>
+
+
 + Ordered list | 리스트 (순서)
     + Output 
-    1. o-list
-    1. o-list
-    1. o-list
-    2. o-list
+        1. o-list
+        1. o-list
+        1. o-list
+        2. o-list
+
     + Syntax
-    \1. o-list
-    \1. o-list
-    \1. o-list
-    \1. o-list
-    \2. o-list
+        \1. o-list
+        \1. o-list
+        \1. o-list
+        \1. o-list
+        \2. o-list
+
 + Unordered list | 리스트 (순서x)
     + Output
     * uo-list
