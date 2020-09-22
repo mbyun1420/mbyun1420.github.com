@@ -9,11 +9,11 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 This blog has a default layout which includes the stlye of first letter having 3ea. Also it is a `gitblog` type blog on `jekyll` structure. `Mundana` is being used as one of the `jekyll` theme. 
 
 
-## Post layout | 포스트 레이아웃
+### Post layout 포스트 레이아웃
 
-Declare layout information on forehead of `_posts` markdown 
-( _posts 게시물 머리말에 layout 관련 정보를 선언)
-
+Declare layout information on forehead of `_posts` markdown   
+ _posts 게시물 머리말에 layout 관련 정보를 선언  
+  
 + layout: post | follow post.html layout
 + title: "Markdown syntax" | title of this article
 + author: youn | author identification
@@ -22,7 +22,6 @@ Declare layout information on forehead of `_posts` markdown
 
 
 ```
-
 ---
 layout: post
 title:  "Markdown syntax"
@@ -30,12 +29,11 @@ author: youn
 categories: [ Markdown ]
 image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 ---
-
 ```
 
-## Contents format | 본문 서식
+### Contents format 본문 서식  
 + Header | 제목
-    + Output
+    + Output  
 
     # h1 
     ## h2
@@ -45,7 +43,6 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     ###### h6
 
 + Syntax
-
     ``` 
     # h1 
     ## h2 
