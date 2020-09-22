@@ -56,11 +56,12 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 + Blockquotes 인용
     + Output
         > quotes 
-    + Syntax
+    + Syntax  
         \> quotes
 
 + Font style 글자 서식  
-
+  
+  
 Syntax              | Output
 ---------           | ---------
 \*italic\*          | *italic*
@@ -70,6 +71,7 @@ Syntax              | Output
 \~~strikethrough\~\~| ~~strikethrough~~
 \<u>Underline\</u>  | <u>Underline</u>
 
+
 + Ordered list 리스트 (순서)
     + Output 
         1. o-list
@@ -77,31 +79,34 @@ Syntax              | Output
         1. o-list
         2. o-list
 
-    + Syntax
-        \1. o-list
-        \1. o-list
-        \1. o-list
-        \1. o-list
-        \2. o-list
+    + Syntax  
+        \1. o-list  
+        \1. o-list  
+        \1. o-list  
+        \1. o-list  
+        \2. o-list  
 
 + Unordered list 리스트 (순서x)
     + Output
-    * uo-list
-        - uo-list
-            + un-list
-    + Syntax
-   \* uo-list
-        \- uo-list
-            \+ un-list   
+        * uo-list
+            - uo-list
+                + un-list
+    + Syntax  
+        \* uo-list
+            \- uo-list
+                \+ un-list   
 
 ### Contents sytle 문서 서식
 + Table 테이블 
-    + Output 
-    
+    + Output  
+      
+      
     Header 1 | Header 2
     --------- | ---------
     Content 1 | Content 3
     Content 2 | Content 4
+
+
     + Syntax
     ```
     Header 1  | Header 2
@@ -110,11 +115,13 @@ Syntax              | Output
     Content 2 | Content 4
     ```
 + Table align 테이블 정렬
-    + Output
+    + Output  
+  
 
     | Header 1 | Header 2 | Header 3 |
     | :-------- | :--------: | --------: |
     | Left | Center | Right |
+
 
     + Syntax
     ```
@@ -126,54 +133,64 @@ Syntax              | Output
 + Code block 코드 블록
     + Output
     ```
+    Code block contents
     ```
-    + Syntax
+    + Syntax  
     \```
-    Code block 
+    Code block contents
     \```
-    + Code block style : c, java, xml, json 
 
+    + Code block style : c, java, xml, json  
+      
     ```c
         void f()
         printf(%s, "이것은 c 코드 입니다");
         }
     ```
-    \```c
+      
+    \```c  
     void f()
         printf(%s, "이것은 c 코드 입니다");
         }
     \`\`\`
+
 + Inline code block 인라인 코드 블록 
-    + Output 
+    + Output  
     `Inline code block`
-    + Syntax
+    + Syntax  
     \`Inline code block\`
-+ Horizontal line | 수평선
++ Horizontal line 수평선
     + Output
-    ---
-    ***
-    ___
-    + Syntax
-    \---
-    \***
-    \___
+    ---  
+    ***  
+    ___  
+    + Syntax  
+    \---  
+    \***  
+    \___  
+
 + Footnotes 각주
-    + Output
+    + Output  
     Footnote[^id]
 
-    [^id]: footnote explaination
-    + Syntax
+    [^id]: footnote explaination  
+
+    + Syntax  
     Footnote\[^id]
 
     \[^id]: footnote explaination
+
 + Summary 요약
-    + Output 
+    + Output  
+      
     <detail><summary>Fold</summary>
     ```c
     pythonprint("hellow world!")
     ```
     </details>
-    + Syntax
+      
+    + Syntax  
+
     \<detail><summary>Fold</summary>
     \```c
     pythonprint("hellow world!")
@@ -181,13 +198,15 @@ Syntax              | Output
     \</details>
 
 + External link 외부 링크
-    + Output 
+    + Output  
+      
     [google](http://www.google.co.kr "hover:구글")
     [google][link1]
     
     [link1]: http://www.google.com/ "hover:구글"
     <mbyun1420@gmail.com/>
-    + Syntax
+    + Syntax  
+    
     \[google](http://www.google.co.kr "hover:구글")
     \[google]\[link1]
 
