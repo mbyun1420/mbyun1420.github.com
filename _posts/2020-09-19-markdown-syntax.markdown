@@ -70,7 +70,8 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     | \**bold\*\*         | **bold**            |
     | \__bold\_\_         | __bold__            |
     | \~~strikethrough\~\~| ~~strikethrough~~   |
-    | \<u>Underline\</u>  | <u>Underline</u>    |  
+    | \<u>Underline\</u>  | <u>Underline</u>    |
+   <br />
    <br />
 + Ordered list 리스트 (순서)
     + Output 
@@ -244,7 +245,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
         \[link1]: http://www.google.com/ "hover:구글"  
     \<mbyun1420@gmail.com>
 
-    
+
 ## etc 기타 서식
 + Image 이미지
     + Output
