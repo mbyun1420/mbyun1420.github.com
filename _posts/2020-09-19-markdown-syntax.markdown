@@ -73,8 +73,6 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     | \<u>Underline\</u>   | <u>Underline</u>    |  
       
       
-
-      
 + Ordered list 리스트 (순서)
     + Output 
         1. o-list
@@ -143,23 +141,27 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     Code block contents
     ```  
     + Syntax  
-    \```  
+    ```
+    ```  
     Code block contents  
+    ```
     \`\`\`  
+
+
     + Code block style : c, java, xml, json  
     
 
-    ``` c
+    ```c
         void f()
         printf(%s, "이것은 c 코드 입니다");
         }
     ```
 
 
-    \``` c  
+    \``\`c  
     void f()
         printf(%s, "이것은 c 코드 입니다");
-        }
+        }  
     \`\`\`
 
 
@@ -171,14 +173,22 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 
 
 + Horizontal line 수평선
-    + Output  
+    + Output
+
+
     ---  
     ***  
     ___  
-    + Syntax  
+
+
+    + Syntax
+
+
     \---  
     \***  
     \___  
+
+    
 + Footnotes 각주
     + Output  
     Footnote[^id]  
