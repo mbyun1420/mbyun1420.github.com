@@ -143,9 +143,10 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     Code block contents
     ```  
     + Syntax  
-    \'''  
-    Code block contents  
-    \'''  
+        + Syntax should have three ` in front and end.  
+            \'''  
+            Code block contents  
+            \'''  
 
     + Code block style : c, java, xml, json  
     
@@ -156,10 +157,10 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     ```
 
 
-    \``` c   
-        void f()  
-            printf(%s, "이것은 c 코드 입니다");  
-    \```
+        \``` c   
+            void f()  
+                printf(%s, "이것은 c 코드 입니다");  
+        \```
 
 
 + Inline code block 인라인 코드 블록 
@@ -197,9 +198,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 
         \[^id]: footnote explaination  
 + Summary 요약
-    + Output
-
-
+    + Output  
         <detail><summary>Fold</summary>
 
         
