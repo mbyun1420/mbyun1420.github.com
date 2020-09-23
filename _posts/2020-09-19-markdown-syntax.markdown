@@ -60,8 +60,8 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
         \> quotes  
   
   
-+ Font style 글자 서식  
-<br />   
++ Font style 글자 서식
+<br />
 | Syntax              | Output              |
 | ---------           | ---------           |
 | \*italic\*          | *italic*            |
