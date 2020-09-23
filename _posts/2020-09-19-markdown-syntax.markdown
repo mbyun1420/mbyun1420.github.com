@@ -72,7 +72,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     | \~~strikethrough\~\~| ~~strikethrough~~   |
     | \<u>Underline\</u>  | <u>Underline</u>    |
 
-    
+      
 + Ordered list 리스트 (순서)
     + Output 
         1. o-list
@@ -93,43 +93,51 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
             - uo-list
                 + un-list
     + Syntax  
-        \* uo-list  
-            \- uo-list  
-                \+ un-list  
-  
+        \* uo-list
+            \- uo-list
+                \+ un-list
+
+
 ### Contents sytle 문서 서식
 + Table 테이블 
     + Output  
 
 
-    | Header 1 | Header 2 |
-    |:---------:|:---------:|
-    | Content 1 | Content 3 |
-    | Content 2 | Content 4 |
+        | Header 1 | Header 2 |
+        |:---------:|:---------:|
+        | Content 1 | Content 3 |
+        | Content 2 | Content 4 |
 
 
     + Syntax
+
+
     ```
-    | Header 1 | Header 2 |
-    |:---------:|:---------:|
-    | Content 1 | Content 3 |
-    | Content 2 | Content 4 |
+        | Header 1 | Header 2 |
+        |:---------:|:---------:|
+        | Content 1 | Content 3 |
+        | Content 2 | Content 4 |
     ```
+
+
 + Table align 테이블 정렬
     + Output  
   
 
-    | Header 1 | Header 2 | Header 3 |
-    | :-------- | :--------: | --------: |
-    | Left | Center | Right |
+        | Header 1 | Header 2 | Header 3 |
+        | :-------- | :--------: | --------: |
+        | Left | Center | Right |
 
 
     + Syntax
+
+
     ```
-    | Header 1  | Header 2   | Header 3  |
-    | :-------- | :--------: | --------: |
-    | Left      | Center     | Right     |
+        | Header 1  | Header 2   | Header 3  |
+        | :-------- | :--------: | --------: |
+        | Left      | Center     | Right     |
     ```
+
 
 + Code block 코드 블록
     + Output
@@ -143,22 +151,22 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     + Syntax
 
 
-    \```
-    Code block contents
-    \```
+    \`\`\`  
+    Code block contents  
+    \`\`\`
 
 
     + Code block style : c, java, xml, json  
     
 
-    ```c
+    ``` c
         void f()
         printf(%s, "이것은 c 코드 입니다");
         }
     ```
 
 
-    \```c  
+    \`\`\` c  
     void f()
         printf(%s, "이것은 c 코드 입니다");
         }
@@ -169,7 +177,9 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     + Output  
     `Inline code block`  
     + Syntax  
-    \`Inline code block\`  
+    \`Inline code block \`
+
+
 + Horizontal line 수평선
     + Output
 
@@ -207,7 +217,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     + Output
     
 
-    <detail><summary>Fold</summary>
+    <detail><summary>Fold</summary>  
     ```c
     pythonprint("hellow world!")
     ```
