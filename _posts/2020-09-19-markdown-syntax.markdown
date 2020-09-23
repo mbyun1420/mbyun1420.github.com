@@ -71,8 +71,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     | \__bold\_\_         | __bold__            |
     | \~~strikethrough\~\~| ~~strikethrough~~   |
     | \<u>Underline\</u>  | <u>Underline</u>    |  
-   
-  <br />
+   <br />
 + Ordered list 리스트 (순서)
     + Output 
         1. o-list
@@ -93,27 +92,27 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
             - uo-list
                 + un-list
     + Syntax  
-        \* uo-list
-            \- uo-list
-                \+ un-list   
-
+        \* uo-list  
+            \- uo-list  
+                \+ un-list  
+  
 ### Contents sytle 문서 서식
 + Table 테이블 
     + Output  
-      
-      
-    Header 1 | Header 2
-    --------- | ---------
-    Content 1 | Content 3
-    Content 2 | Content 4
+
+
+    | Header 1 | Header 2 |
+    |:---------:|:---------:|
+    | Content 1 | Content 3 |
+    | Content 2 | Content 4 |
 
 
     + Syntax
     ```
-    Header 1  | Header 2
-    --------- | ---------
-    Content 1 | Content 3
-    Content 2 | Content 4
+    | Header 1 | Header 2 |
+    |:---------:|:---------:|
+    | Content 1 | Content 3 |
+    | Content 2 | Content 4 |
     ```
 + Table align 테이블 정렬
     + Output  
@@ -133,64 +132,89 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 
 + Code block 코드 블록
     + Output
+
+
     ```
     Code block contents
     ```
-    + Syntax  
+
+
+    + Syntax
+
+
     \```
     Code block contents
     \```
 
+
     + Code block style : c, java, xml, json  
-      
+    
+
     ```c
         void f()
         printf(%s, "이것은 c 코드 입니다");
         }
     ```
-      
+
+
     \```c  
     void f()
         printf(%s, "이것은 c 코드 입니다");
         }
     \`\`\`
 
+
 + Inline code block 인라인 코드 블록 
     + Output  
-    `Inline code block`
+    `Inline code block`  
     + Syntax  
-    \`Inline code block\`
+    \`Inline code block\`  
 + Horizontal line 수평선
     + Output
+
+
     ---  
     ***  
     ___  
-    + Syntax  
+
+
+    + Syntax
+
+
     \---  
     \***  
     \___  
 
+
 + Footnotes 각주
-    + Output  
+    + Output
+
+
     Footnote[^id]
 
     [^id]: footnote explaination  
 
-    + Syntax  
-    Footnote\[^id]
+    + Syntax
+
+
+    Footnote\[^id]  
+
 
     \[^id]: footnote explaination
 
 + Summary 요약
-    + Output  
-      
+    + Output
+    
+
     <detail><summary>Fold</summary>
     ```c
     pythonprint("hellow world!")
     ```
     </details>
-      
-    + Syntax  
+
+          
+    + Syntax
+
 
     \<detail><summary>Fold</summary>
     \```c
@@ -198,22 +222,29 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     \```
     \</details>
 
+
 + External link 외부 링크
-    + Output  
-      
-    [google](http://www.google.co.kr "hover:구글")
-    [google][link1]
+    + Output
     
-    [link1]: http://www.google.com/ "hover:구글"
+
+    [google](http://www.google.co.kr "hover:구글")  
+    [google][link1]
+
+    
+    [link1]: http://www.google.com/ "hover:구글"  
     <mbyun1420@gmail.com/>
-    + Syntax  
 
-    \[google](http://www.google.co.kr "hover:구글")
-    \[google]\[link1]
 
-        \[link1]: http://www.google.com/ "hover:구글"
+    + Syntax
+
+
+    \[google](http://www.google.co.kr "hover:구글")  
+    \[google]\[link1]  
+
+        \[link1]: http://www.google.com/ "hover:구글"  
     \<mbyun1420@gmail.com>
 
+    
 ## etc 기타 서식
 + Image 이미지
     + Output
