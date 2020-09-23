@@ -140,24 +140,20 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     ```
     Code block contents
     ```  
-    + Syntax
-
-
+    + Syntax  
     \`\`\`  
-    Code block contents  
-    \`\`\`  
-
+    \`\`\`
 
     + Code block style : c, java, xml, json  
     
 
-    ```c
+    ``` c
         void f()
         printf(%s, "이것은 c 코드 입니다");          
     ```
 
 
-    \`\`\`c  
+    \`\`\` c  
     void f()
         printf(%s, "이것은 c 코드 입니다");  
     \`\`\`
@@ -167,7 +163,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     + Output  
     `Inline code block`  
     + Syntax  
-    \`Inline code block \`
+    \`Inline code block \\`
 
 
 + Horizontal line 수평선
@@ -200,20 +196,18 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 + Summary 요약
     + Output  
     <detail><summary>Fold</summary>
-
-
-    ```c
-    pythonprint("hellow world!")
-    ```  
+        ```c
+        pythonprint("hellow world!")
+        ```
     </details>
 
 
     + Syntax  
     ```
     <detail><summary>Fold</summary>  
-    ```c  
-    pythonprint("hellow world!")  
-    \```  
+        ```c  
+        pythonprint("hellow world!")  
+        ```  
     </details>
     ```
 
@@ -225,18 +219,17 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     [google][link1]
 
     
-    [link1]: http://www.google.com/ "hover:구글"  
-    <mbyun1420@gmail.com/>
+    [link1]: http://www.google.com/ "hover:구글"
 
 
-    + Syntax
-
-
-    \[google](http://www.google.co.kr "hover:구글")  
-    \[google]\[link1]  
-
-        \[link1]: http://www.google.com/ "hover:구글"  
-    \<mbyun1420@gmail.com>
+    <mbyun1420@gmail.com/>  
+    + Syntax  
+    ```
+        [google](http://www.google.co.kr "hover:구글")  
+        [google]\[link1]  
+        [link1]: http://www.google.com/ "hover:구글"  
+        <mbyun1420@gmail.com/>  
+    ```
 
 
 ## etc 기타 서식
@@ -246,13 +239,26 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     ![image_example_2][image_link]
 
     [image_link]: {{ site.baseurl }}/assets/images/8.jpg
-    + Syntax
-    \![image_example_1]({{ site.baseurl }}/assets/images/8.jpg)
-    \![image_example_2][image_link]
 
-    \[image_link]: {{ site.baseurl }}/assets/images/8.jpg
 
-+ Video 비디오 
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+    + Syntax  
+
+    ```
+        ![image_example_1]({{ site.baseurl }}/assets/images/8.jpg)
+        ![image_example_2][image_link]
+
+        [image_link]: {{ site.baseurl }}/assets/images/8.jpg
+    ```
+
++ Video 비디오  
+    + Output
+
+        
+    <p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+
+    + Syntax  
+    ```
+        <p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+    ```
 
 
