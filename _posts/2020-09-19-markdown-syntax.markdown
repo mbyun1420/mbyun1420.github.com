@@ -63,15 +63,17 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 + Font style 글자 서식
 
 
-    | Syntax              | Output              |
+    | Syntax               | Output              |
     |:---:|:---:|
-    | \*italic\*          | *italic*            |
-    | \_italic\_          | _italic_            |
-    | \**bold\*\*         | **bold**            |
-    | \__bold\_\_         | __bold__            |
-    | \~~strikethrough\~\~| ~~strikethrough~~   |
-    | \<u>Underline\</u>  | <u>Underline</u>    |  
+    | \*italic\*           | *italic*            |
+    | \_italic\_           | _italic_            |
+    | \**bold\*\*          | **bold**            |
+    | \__bold\_\_          | __bold__            |
+    | \~~strikethrough\~\~ | ~~strikethrough~~   |
+    | \<u>Underline\</u>   | <u>Underline</u>    |  
       
+      
+
       
 + Ordered list 리스트 (순서)
     + Output 
