@@ -143,9 +143,9 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     Code block contents
     ```  
     + Syntax  
-    \''''
-    Code block contents 
-    \''''
+    \'''  
+    Code block contents  
+    \'''  
 
     + Code block style : c, java, xml, json  
     
@@ -156,10 +156,10 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     ```
 
 
-    \```` c  
-        void f()
+    \``` c   
+        void f()  
             printf(%s, "이것은 c 코드 입니다");  
-    \````
+    \```
 
 
 + Inline code block 인라인 코드 블록 
@@ -197,22 +197,30 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 
         \[^id]: footnote explaination  
 + Summary 요약
-    + Output  
-    <detail><summary>Fold</summary>
-        ```c
-        pythonprint("hellow world!")
+    + Output
+
+
+        <detail><summary>Fold</summary>
+
+        
+            ```c
+            pythonprint("hellow world!")
+            ```
+
+
+        </details>
+
+
+    + Syntax
+
+
         ```
-    </details>
-
-
-    + Syntax  
-    ```
-    <detail><summary>Fold</summary>  
-        ```c  
-        pythonprint("hellow world!")  
-        ```  
-    </details>
-    ```
+        <detail><summary>Fold</summary>  
+            ```c  
+            pythonprint("hellow world!")  
+            ```  
+        </details>
+        ```
 
 + External link 외부 링크
     + Output
