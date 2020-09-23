@@ -72,7 +72,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     | \~~strikethrough\~\~| ~~strikethrough~~   |
     | \<u>Underline\</u>  | <u>Underline</u>    |  
    
-  
+  <br />
 + Ordered list 리스트 (순서)
     + Output 
         1. o-list
