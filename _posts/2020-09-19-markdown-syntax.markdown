@@ -140,11 +140,11 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     ```
     Code block contents
     ```  
-    + Syntax  
-    ```
-    ```  
+    + Syntax
+
+
+    \`\`\`  
     Code block contents  
-    ```
     \`\`\`  
 
 
@@ -153,15 +153,13 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 
     ```c
         void f()
-        printf(%s, "이것은 c 코드 입니다");
-        }
+        printf(%s, "이것은 c 코드 입니다");          
     ```
 
 
-    \``\`c  
+    \`\`\`c  
     void f()
-        printf(%s, "이것은 c 코드 입니다");
-        }  
+        printf(%s, "이것은 c 코드 입니다");  
     \`\`\`
 
 
@@ -188,7 +186,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     \***  
     \___  
 
-    
+
 + Footnotes 각주
     + Output  
     Footnote[^id]  
@@ -198,23 +196,26 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     Footnote\[^id]  
 
 
-    \[^id]: footnote explaination  
+        \[^id]: footnote explaination  
 + Summary 요약
     + Output  
-    <detail><summary>Fold</summary>  
+    <detail><summary>Fold</summary>
+
+
     ```c
     pythonprint("hellow world!")
-    ```
+    ```  
     </details>
 
-          
+
     + Syntax  
-    \<detail>\<summary>Fold\</summary>  
-    \```c  
+    ```
+    <detail><summary>Fold</summary>  
+    ```c  
     pythonprint("hellow world!")  
     \```  
-    \</details>
-
+    </details>
+    ```
 
 + External link 외부 링크
     + Output
