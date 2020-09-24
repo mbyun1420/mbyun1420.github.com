@@ -200,10 +200,10 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 + Expander  접기/펼치기
     + Output  
         <details>
-        <summary>Fold</summary>
-            ``` 
-                pythonprint("hellow world!")  
+         <summary>Fold</summary>  
             ```
+                pythonprint("hellow world!")  
+            ```  
         </details>
 
 
@@ -244,7 +244,8 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
     + Output
 
 
-    <div markdown="1">block setting </div>  
+<div markdown="1">block setting </div>
+
 
     + Syntax
         ```
