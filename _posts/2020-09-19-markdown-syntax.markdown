@@ -243,9 +243,11 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 
 ## etc 기타 서식
 + Block setting 블록 설정
-    + Output  
+    + Output
+
+
     <div markdown="1">block setting </div>  
-    
+
     + Syntax
         ```
         <div markdown="1">block setting</div>
