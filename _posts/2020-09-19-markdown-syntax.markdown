@@ -209,10 +209,9 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 
 
         ```
-        <detail><summary>Fold</summary>  
-            ```c  
+        <detail>
+         <summary>Fold</summary>  
             pythonprint("hellow world!")  
-            ```  
         </details>
         ```
 
