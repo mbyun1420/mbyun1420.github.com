@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Markdown syntax"
+title:  "Markdown syntax 마크다운 문법"
 author: youn
 categories: [ Markdown ]
 image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
@@ -55,9 +55,13 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 
 + Blockquotes 인용
     + Output
-        > quotes 
+        > quotes
+        >   > quotes
+        >   >   > quotes  
     + Syntax  
         \> quotes
+        \>  > quotes
+        \>  >   > quotes
   
   
 + Font style 글자 서식
