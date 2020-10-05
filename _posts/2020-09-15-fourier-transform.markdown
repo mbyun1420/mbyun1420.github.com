@@ -6,7 +6,11 @@ categories: [ Signal Processing , Incomplete ]
 # image: assets/images/demo1.jpg
 ---
 
-[수정중인글입니다][home]
+
+Incomplete article. 
+
+
+
 
 Fourier transform is widely used in fault diagnosis. Becasue of its diverse ...
 
