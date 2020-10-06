@@ -24,14 +24,16 @@ $$
 Syntax 입력에 있어서 태그는 생략한다  
 
 
+
 | Output               | Syntax              | Output               | Syntax              |  
 |:---:                 |:---:                |:---:                 |:---:                |  
 | $A$	               | A                   | $B$	                | B                   |  
 | $\alpha$	           | \alpha              | $\beta$	            | \beta               |  
 | $\gamma$	           | \gammma             | $\Gamma$             | \Gamma              |  
 | $\pi$                | \pi                 | $\Pi$	            | \Pi                 |  
-| $\phi$               | \phi                | $\Phi$	           | \Phi                |  
-| $\varphi$	           | \varphi             | $\theta$	           | \theta              |  
+| $\phi$               | \phi                | $\Phi$	            | \Phi                |  
+| $\varphi$	           | \varphi             | $\theta$	            | \theta              |  
+
 
 
 ### Sinesoidal function 삼각함수
