@@ -8,20 +8,25 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 
 write Mathematic symbols
 
+The default math delimiters are $$...$$ and \[...\] for displayed mathematics, and \(...\) for in-line mathematics. Note in particular that the $...$ in-line delimiters are not used by default. That is because dollar signs appear too often in non-mathematical settings, which could cause some text to be treated as mathematics unexpectedly. For example, with single-dollar delimiters, “… the cost is $2.50 for the first one, and $2.00 for each additional one …” would cause the phrase “2.50 for the first one, and” to be treated as mathematics since it falls between dollar signs. See the section on TeX and LaTeX Math Delimiters for more information on using dollar signs as delimiters.
+Markdown 형식을 따르는 글에서의 수식 표현은 글 내에서 이루어 지거나 블록 형태로 표현한다. 인라인 형태의 수식 표현은 \(sqrt{3x-1}+(1+x)^2 \) 과 같이 수식 표현에 \$ 태그를 적용한다. 
 
-Markdown 형식을 따르는 글에서의 수식 표현은 글 내에서 이루어 지거나 블록 형태로 표현한다. 인라인 형태의 수식 표현은 $\sqrt{3x-1}+(1+x)^2 $ 과 같이 수식 표현에 \$ 태그를 적용한다. 
 
-
-블록 형태의 수식 표현은 \$$ 태그를 적용한다. 
+블록 형태의 수식 표현은 $$ 태그를 적용한다. 
 
 $$
 \sqrt{3x-1}+(1+x)^2
 $$
 
 
+\[
+\sqrt{3x-1}+(1+x)^2
+]
+
+
 ### Greek letters 그리스 문자
 
-Syntax 입력에 있어서 \$$ 태그는 생략한다
+Syntax 입력에 있어서 태그는 생략한다
 
 | Output               | Syntax              | Output               | Syntax              |
 |:---:                 |:---:                |:---:                 |:---:                |
