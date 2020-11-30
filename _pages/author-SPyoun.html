@@ -1,23 +1,23 @@
 ---
-title: "SPYoun"
+title: "spyoun"
 layout: default
-permalink: "/author-SPyoun.html"
+permalink: "/author-spyoun.html"
 ---
 <div class="container">
 <div class="row justify-content-center">
     <div class="col-md-8">        
         <div class="row align-items-center mb-5">
             <div class="col-md-9">
-                <h2 class="font-weight-bold">{{page.title}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.SPyoun.twitter }}">Follow</a></span></h2>
-                <p><a href="{{ site.authors.SPyoun.site }}">{{ site.authors.SPyoun.site }}</a></p>
-                <p class="excerpt">{{ site.authors.SPyoun.bio }}</p>
+                <h2 class="font-weight-bold">{{page.title}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.spyoun.twitter }}">Follow</a></span></h2>
+                <p><a href="{{ site.authors.spyoun.site }}">{{ site.authors.spyoun.site }}</a></p>
+                <p class="excerpt">{{ site.authors.spyoun.bio }}</p>
             </div>
             <div class="col-md-3 text-right">
-                <img alt="{{ site.authors.SPyoun.name }}" src="{{site.baseurl}}/{{ site.authors.SPyoun.avatar }}" class="rounded-circle" height="100" width="100">
+                <img alt="{{ site.authors.spyoun.name }}" src="{{site.baseurl}}/{{ site.authors.spyoun.avatar }}" class="rounded-circle" height="100" width="100">
             </div>
         </div>
         <h4 class="font-weight-bold spanborder"><span>Posts about {{page.title}}</span></h4>
-            {% assign posts = site.posts | where:"author","SPyoun" %}
+            {% assign posts = site.posts | where:"author","spyoun" %}
             {% for post in posts %}
             {% include main-loop-card.html %}
             {% endfor %}
