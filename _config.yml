@@ -44,39 +44,39 @@ authors:
       email:          mbyun1420@gmail.com
 
     SPyoun:
-      name:           Signal processing engineer
+      name:           SPYoun
       site:           https://mbyun1420.github.io/
       avatar:         assets/images/profile_author_youn.jpg
       bio:            "Signal processing engineer Youn "
       email:          mbyun1420@gmail.com
 
-    se-youn:
-      name:           Software engineer
-      site:           https://mbyun1420.github.io/
-      avatar:         assets/images/profile_author_youn.jpg
-      bio:            "Software engineer Youn "
-      email:          mbyun1420@gmail.com
+    # se-youn:
+    #   name:           Software engineer
+    #   site:           https://mbyun1420.github.io/
+    #   avatar:         assets/images/profile_author_youn.jpg
+    #   bio:            "Software engineer Youn "
+    #   email:          mbyun1420@gmail.com
 
-    me-youn:
-      name:           Mechanical engineer
-      site:           https://mbyun1420.github.io/
-      avatar:         assets/images/profile_author_youn.jpg
-      bio:            "Mechanical engineer Youn "
-      email:          mbyun1420@gmail.com
+    # me-youn:
+    #   name:           Mechanical engineer
+    #   site:           https://mbyun1420.github.io/
+    #   avatar:         assets/images/profile_author_youn.jpg
+    #   bio:            "Mechanical engineer Youn "
+    #   email:          mbyun1420@gmail.com
 
-    ee-youn:
-      name:           Electrical engineer
-      site:           https://mbyun1420.github.io/
-      avatar:         assets/images/profile_author_youn.jpg
-      bio:            "Electrical engineer Youn "
-      email:          mbyun1420@gmail.com
+    # ee-youn:
+    #   name:           Electrical engineer
+    #   site:           https://mbyun1420.github.io/
+    #   avatar:         assets/images/profile_author_youn.jpg
+    #   bio:            "Electrical engineer Youn "
+    #   email:          mbyun1420@gmail.com
 
-    ds-youn:
-      name:           Data scienctist
-      site:           https://mbyun1420.github.io/
-      avatar:         assets/images/profile_author_youn.jpg
-      bio:            "Data scientist Youn "
-      email:          mbyun1420@gmail.com
+    # ds-youn:
+    #   name:           Data scienctist
+    #   site:           https://mbyun1420.github.io/
+    #   avatar:         assets/images/profile_author_youn.jpg
+    #   bio:            "Data scientist Youn "
+    #   email:          mbyun1420@gmail.com
 
 
 
