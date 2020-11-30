@@ -43,8 +43,8 @@ authors:
       bio:            "Be happy"
       email:          mbyun1420@gmail.com
 
-    younsp:
-      name:           Signal Processing
+    signal:
+      name:           Signal
       site:           https://mbyun1420.github.io/
       avatar:         assets/images/profile_author_youn.jpg
       bio:            "Signal processing engineer Youn "
