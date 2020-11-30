@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fourier Transform"
-author: "Signal processing engineer Youn"
+author: signal-youn
 categories: [ Signal Processing , Incomplete ]
 # image: assets/images/demo1.jpg
 ---
