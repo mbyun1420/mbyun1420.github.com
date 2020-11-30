@@ -50,12 +50,12 @@ authors:
       bio:            "Signal processing engineer Youn "
       email:          mbyun1420@gmail.com
 
-    # se-youn:
-    #   name:           Software engineer
-    #   site:           https://mbyun1420.github.io/
-    #   avatar:         assets/images/profile_author_youn.jpg
-    #   bio:            "Software engineer Youn "
-    #   email:          mbyun1420@gmail.com
+    software-engineer:
+      name:           Software-engineer
+      site:           https://mbyun1420.github.io/
+      avatar:         assets/images/profile_author_youn.jpg
+      bio:            "Software engineer Youn "
+      email:          mbyun1420@gmail.com
 
     # me-youn:
     #   name:           Mechanical engineer

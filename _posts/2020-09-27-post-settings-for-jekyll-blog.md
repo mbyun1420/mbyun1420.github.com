@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Post settings for jekyll blog 지킬 블로그 게시글 설정"
-author: youn
+author: software-engineer
 categories: [ Jekyll ]
 image: assets/images/jekyll-logo.png
 tags: [sticky]

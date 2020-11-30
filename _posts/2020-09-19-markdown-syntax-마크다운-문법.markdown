@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Markdown syntax 마크다운 문법"
-author: youn
+author: software-engineer
 categories: [ Markdown ]
 image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 ---

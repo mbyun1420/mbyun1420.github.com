@@ -16,7 +16,7 @@ permalink: "/author-signal-processing-engineer.html"
                 <img alt="{{ site.authors.signal-processing-engineer.name }}" src="{{site.baseurl}}/{{ site.authors.signal-processing-engineer.avatar }}" class="rounded-circle" height="100" width="100">
             </div>
         </div>
-        <h4 class="font-weight-bold spanborder"><span>Posts about {{page.title}}</span></h4>
+        <h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
             {% assign posts = site.posts | where:"author","signal-processing-engineer" %}
             {% for post in posts %}
             {% include main-loop-card.html %}
