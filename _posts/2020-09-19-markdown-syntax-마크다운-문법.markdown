@@ -133,7 +133,7 @@ This blog has a default layout which includes the stlye of first letter having 3
     + Code block style : c, java, xml, json  
     
 
-    ``` c
+    ```c
         void f()
             printf(%s, "이것은 c 코드 입니다");          
     ```

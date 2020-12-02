@@ -6,17 +6,20 @@ categories: [ Markdown ]
 image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 ---
 
-write Mathematic symbols
-
-The default math delimiters are $$...$$ and \[...\] for displayed mathematics, and \(...\) for in-line mathematics. Note in particular that the $...$ in-line delimiters are not used by default. That is because dollar signs appear too often in non-mathematical settings, which could cause some text to be treated as mathematics unexpectedly. For example, with single-dollar delimiters, “… the cost is \$2.50 for the first one, and $2.00 for each additional one …” would cause the phrase “2.50 for the first one, and” to be treated as mathematics since it falls between dollar signs. See the section on TeX and LaTeX Math Delimiters for more information on using dollar signs as delimiters.
-Markdown 형식을 따르는 글에서의 수식 표현은 글 내에서 이루어 지거나 블록 형태로 표현한다. 인라인 형태의 수식 표현은 $\sqrt{3x-1}+(1+x)^2$ 과 같이 수식 표현에 $ 태그를 적용한다. 
+In articles which follow the Markdown format, mathematical formulars are expressed within the text or in block form. The basic form of expressing formulars are to place them between two doloor signs ($$...$$) or between squre brackets \[...\]. writing formulars with single dollor signs are avoided to prevent mixing with the dollor sign in the text. 
 
 
-블록 형태의 수식 표현은 $$ 태그를 적용한다. 
+Markdown 형식을 따르는 글에서 수식 표현은 글 내에서 이루어지거나 블록 형태로 표현한다. 수식을 표현하는 기본 형태는 두개의 달러기호  ($$...$$) 사이 혹은 대괄호 \[...\] 사이에 입력하는 것이다. 반면, 하나의 달러기호로 수식을 표현하는 것은 본문 내 달러기호와의 혼용을 피하기 위해 지양된다.  
+
 
 $$
 \sqrt{3x-1}+(1+x)^2
 $$
+
+
+(하지만 이 블로그에서 사용하는 markdown 양식에서는 $ 기호가 수식표현으로 인식된다. 그래서 본문 내 인라인 형태의 수식 표현은 $\sqrt{3x-1}+(1+x)^2$ 과 같이 수식 표현에 $ 태그를 적용한다.)
+
+
 
 
 ### Greek letters 그리스 문자
@@ -28,7 +31,7 @@ Syntax 입력에 있어서 태그는 생략한다
 | Output               | Syntax              | Output               | Syntax              |  
 |:---:                 |:---:                |:---:                 |:---:                |  
 | $A$	               | A                   | $B$	                | B                   |  
-| $\alpha$	           | \alpha              | $\beta$	            | \beta               |  
+| $\alpha$	           | alpha              | $\beta$	            | \beta               |  
 | $\gamma$	           | \gammma             | $\Gamma$             | \Gamma              |  
 | $\pi$                | \pi                 | $\Pi$	            | \Pi                 |  
 | $\phi$               | \phi                | $\Phi$	            | \Phi                |  
