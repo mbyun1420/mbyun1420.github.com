@@ -6,20 +6,15 @@ categories: [ Markdown ]
 image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 ---
 
-In articles which follow the Markdown format, mathematical formulars are expressed within the text or in block form. The basic form of expressing formulars are to place them between two doloor signs (\$\$...\$\$) or between squre brackets \[...\]. writing formulars with single dollor signs are avoided to prevent mixing with the dollor sign in the text. 
+In articles which follow the Markdown format, mathematical formulars are expressed within the text or in block form. The basic form of expressing formulars are to place them between two dolor tags or between squre brackets. However, in the `post` template of this blog, the `$` tag is recognized as an expression. So, in the inline formular of the expression in the text, the `$` tag is applied to the thhe expression as in $\sqrt{3x-1}+(1+x)^2$. 
 
 
-Markdown 형식을 따르는 글에서 수식 표현은 글 내에서 이루어지거나 블록 형태로 표현된다. 수식을 표현하는 기본 형태는 두개의 달러기호 (\$\$...\$\$) 사이 혹은 대괄호 \[...\] 사이에 입력하는 것이다. 반면, 하나의 달러기호로 수식을 표현하는 것은 본문 내 달러기호와의 혼용을 피하기 위해 지양된다.  
+Markdown 형식을 따르는 글에서 수식 표현은 글 내에서 이루어지거나 블록 형태로 표현된다. 수식을 표현하는 기본 형태는 두개의 달러기호 사이 혹은 대괄호 사이에 입력하는 것이다. 반면, 하나의 달러기호로 수식을 표현하는 것은 본문 내 달러기호와의 혼용을 피하기 위해 지양된다. 하지만 이 블로그의 `post` template에서는 `$` 기호가 수식표현으로 인식된다. 그래서 본문 내 인라인 형태의 수식 표현은 $\sqrt{3x-1}+(1+x)^2$ 과 같이 수식 표현에 `$` 태그를 적용한다.
 
 
 $$
 \sqrt{3x-1}+(1+x)^2
 $$
-
-
-(하지만 이 블로그에서 사용하는 markdown 양식에서는 \$ 기호가 수식표현으로 인식된다. 그래서 본문 내 인라인 형태의 수식 표현은 $\sqrt{3x-1}+(1+x)^2$ 과 같이 수식 표현에 $ 태그를 적용한다.)
-
-
 
 
 ### Greek letters 그리스 문자
