@@ -88,8 +88,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: youn
+      avatar: /assets/images/ai_engieer.png
       
   # all pages
   - scope:
@@ -101,8 +101,8 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 
-# Paginate
-paginate: 10
+# Paginate (10->5)
+paginate: 5 
 
 
 
