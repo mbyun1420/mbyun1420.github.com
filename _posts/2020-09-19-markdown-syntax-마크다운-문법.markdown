@@ -31,7 +31,7 @@ This blog has a default layout which includes the stlye of first letter having 3
     ###### h6
      ``` 
 
-+ Blockquotes 인용
++ Blockquote 인용
     + Output
         > quotes
         >   > quotes
@@ -173,17 +173,17 @@ This blog has a default layout which includes the stlye of first letter having 3
     + Output  
     Footnote[^id]  
 
-    [^id]: footnote explaination  
+    [^id]: footnote explanation  
     + Syntax  
     Footnote\[^id]  
 
 
-        \[^id]: footnote explaination  
+        \[^id]: footnote explanation  
 + Expander  접기/펼치기
     + Output  
         <details>
          <summary>Fold</summary>  
-            pythonprint("hellow world!")  
+            pythonprint("hello world!")  
         </details>
 
 
@@ -193,7 +193,7 @@ This blog has a default layout which includes the stlye of first letter having 3
         ```
         <detail>
          <summary>Fold</summary>  
-            pythonprint("hellow world!")  
+            pythonprint("hello world!")  
         </details>
         ```
 
@@ -212,7 +212,7 @@ This blog has a default layout which includes the stlye of first letter having 3
     + Syntax  
     ```
         [google](http://www.google.co.kr "hover:구글")  
-        [google]\[link1]  
+        [google][link1]  
         [link1]: http://www.google.com/ "hover:구글"  
         <mbyun1420@gmail.com/>  
     ```
