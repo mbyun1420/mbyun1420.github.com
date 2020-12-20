@@ -1,23 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
-      {% if post.sitemap.priority == null %}
-          <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
-    </url>
-  {% endfor %}
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://mbyun1420.github.io/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/index.html</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/authors-list.html</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/contact.html</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/2-ASCII-string/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/categories.html</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/1-data-type/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/0-numeral-system/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/c-basic2/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/post-settings-for-jekyll-blog/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/c-basic1/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/page2/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/author-youn</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/author-signal-processing-engineer</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/author-software-engineer</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/author-mechanical-engineer</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/author-electrical-engineer</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/author-data-scientist</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/fourier-transform/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/markdown-mathematic-fomulars/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/markdown/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/markdown-syntax/</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mbyun1420.github.io/tags.html</loc>
+  <lastmod>2020-12-20T10:49:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
