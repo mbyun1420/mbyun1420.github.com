@@ -205,7 +205,7 @@ a.text-dark:hover {
 .navbar-brand {
 	margin-right:2rem;
 	font-size:1.55rem;
-    font-family: 'Noto Sans KR',"Georgia","Times New Roman",serif;
+    font-family: 'Noto Sans KR',"Arial", "Georgia","Times New Roman",serif;
 }
 .dropdown-item {
 	font-weight:400;
@@ -298,7 +298,7 @@ a.text-dark:hover {
 	}
     .jumbotron-home h1 {
 		/*Georgia,Times,"Times New Roman",serif; */
-        font-family: 'Noto Sans KR', Georgia,Times,"Times New Roman",serif;
+        font-family: Georgia,Times,"Times New Roman",serif;
         font-size: 2.4rem;
         font-weight: 700;
         line-height: 1.1;
