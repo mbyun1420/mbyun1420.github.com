@@ -298,7 +298,7 @@ a.text-dark:hover {
 	}
     .jumbotron-home h1 {
 		/*Georgia,Times,"Times New Roman",serif; */
-        font-family: "Arial", Georgia,Times,"Times New Roman",serif;
+        font-family: 'Noto Sans KR', Georgia,Times,"Times New Roman",serif;
         font-size: 2.4rem;
         font-weight: 700;
         line-height: 1.1;
@@ -656,7 +656,7 @@ article {
 	/* font-size 20->15*/
 	font-size:15px;
 	line-height:1.86;
-    font-family: 'Noto Sans KR', Georgia;
+    font-family: 'Noto Sans KR', "Arial", Georgia;
 }
 .article-headline {
 	/* font-familiy serif 위치 이동*/
