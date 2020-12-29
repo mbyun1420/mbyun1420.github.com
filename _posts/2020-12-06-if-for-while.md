@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[C] If, For, While, Switch"
+title:  "[C] If, For, While, and Switch"
 author: software-engineer
 categories: [ C ]
 image: assets/images/candcplus.png
