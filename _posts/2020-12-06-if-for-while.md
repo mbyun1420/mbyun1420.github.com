@@ -113,17 +113,14 @@ In the case of `break` and `continue`, it can be used in loop statements such as
 
         // N회 반복
         for(i=0; i<N; i++){
-
         }
 
         // j==N 까지 실행 
         for(int j=0; j<=N; j++){
-
         }
 
         // k=3 부터 N 번 실행
         for(int k=3; k<N+3; k++ ){
-
         }
 
 
@@ -131,7 +128,6 @@ In the case of `break` and `continue`, it can be used in loop statements such as
             if(m==5) break;
             if(m % 2==0) printf("%d\n", m); 
         }
-
 
         return 0;
     }
@@ -167,14 +163,10 @@ Unlike the `For` statement that sets the number of loops, the `While` statement 
         }
         printf("%d\n",i);
 
-
-
-
         do{
             printf("%d\n",i);
             i++;
         } while(i<25);
-
 
     return 0;
     }

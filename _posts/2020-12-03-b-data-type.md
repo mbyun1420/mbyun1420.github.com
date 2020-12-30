@@ -28,6 +28,8 @@ Data type means the type of variables. Variables refer to an object to transfer 
 |unsigned long long | 8 | 0 | 18499744073709551615 |
 
 
+
+
 |Data Type | Volume(B) | Min Value | Max Value |
 |:---:   |:---:   | :---:   | :---:   |
 | float | 4 | 3.4e-37 | 3.4e+38 |
