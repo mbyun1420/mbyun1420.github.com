@@ -32,6 +32,7 @@ To find the maximum value in an array, you can directly find the maximum value o
             if (max_value < a[i]) max_value = a[i];
         }
 
+    return 0;
     }
 
 ```
