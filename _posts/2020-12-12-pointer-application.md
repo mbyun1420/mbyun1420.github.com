@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "[C] Pointer application, 포인터 활용"
