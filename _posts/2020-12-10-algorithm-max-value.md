@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title:  "[C] Algorithm : Fining max value, 알고리즘 : 최대 값 찾기"
+title:  "[C] Fining max value, 알고리즘 : 최대 값 찾기"
 author: software-engineer
 categories: [ C ]
 image: assets/images/candcplus.png

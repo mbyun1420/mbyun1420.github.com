@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[C] Algorithm : Simple sort, 알고리즘 : 단순 정렬"
+title:  "[C] Simple sort, 단순 정렬"
 author: software-engineer
 categories: [ C ]
 image: assets/images/candcplus.png
