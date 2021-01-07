@@ -6,150 +6,27 @@
 	   xmlns:xhtml="http://www.w3.org/1999/xhtml"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
-<!-- www.check-domains.com sitemap generator -->
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
 
-<url>
-   <loc>https://mbyun1420.github.io/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>1.0000</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/authors-list.html</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/contact.html</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/c-scanf/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/categories.html</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/c-ASCII-string/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/b-data-type/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/a-numeral-system/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/post-settings-for-jekyll-blog/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/c-basic2/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/c-basic1/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/page2/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/fourier-transform/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/markdown-mathematic-fomulars/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/markdown/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/markdown-syntax/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/tags.html</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/page3/</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/author-youn.html</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/author-signal-processing-engineer.html</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/author-software-engineer.html</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/author-mechanical-engineer.html</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/author-electrical-engineer.html</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://mbyun1420.github.io/author-data-scientist.html</loc>
-   <lastmod>2020-12-20T14:01:46+00:00</lastmod>
-   <changefreq>hourly</changefreq>
-   <priority>0.5120</priority>
-</url>
+      {% if post.sitemap.changefreq == null %}
+        <changefreq>weekly</changefreq>
+      {% else %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% endif %}
+
+      {% if post.sitemap.priority == null %}
+          <priority>0.5</priority>
+      {% else %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% endif %}
+
+    </url>
+  {% endfor %}
 </urlset>
