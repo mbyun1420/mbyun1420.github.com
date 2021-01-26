@@ -54,13 +54,15 @@ void BFS(int v, int V) {
 void BFS_d(int v, int V) {		
     front = -1;
     rear = -1;
-    Q[++rear]=v;
-    D[++rear]=0;
+    rear++
+    Q[rear]=v;
+    D[rear]=0;
     visit[v]=1;    
 
     while(front != rear){
-        v = Q[++front];
-        int d = D[++front];
+        front++;
+        v = Q[front];
+        int d = D[front];
 
         for(int w=1; w<=V; w++){
             if(visit[w]==0 && G[v][w]==1 ){
